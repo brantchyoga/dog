@@ -13,6 +13,10 @@ img{
 
 
 }
+.para{
+  margin:20px;
+  padding-top: 40px;
+}
 h1{
   color:purple;
   text-align: center;
@@ -39,4 +43,24 @@ h3{
 }
 a:hover {
   color: green;
+}
+body {
+  background: #3f6aaf;
+}
+
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+        color:green;
+
+    }
+}
+
+@media screen and (max-width: 600px){
+  .dog {
+    width: 90%;
+    float:none;
+    margin-top: 80px;
+  }
 }
