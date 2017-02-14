@@ -1,3 +1,11 @@
+/*#dark {
+  background-color: black;
+  color: white;
+}*/
+.click {
+  background-color: #42f4dc;
+  border: .5px dashed #01302;
+}
 .dog {
   width: 20%;
   float:left;
@@ -13,6 +21,7 @@ img{
 
 
 }
+
 .para{
   margin:20px;
   padding-top: 40px;
@@ -64,3 +73,12 @@ body {
     margin-top: 80px;
   }
 }
+
+/*This only plays when dark button is clicked*/
+/*
+.darkpage {
+  background-color: black;
+}
+.darkpage p {
+    color:white;
+  }*/
